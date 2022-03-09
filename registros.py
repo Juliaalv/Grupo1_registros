@@ -73,7 +73,7 @@ if (config.has_ESU) :
         'ESU_tot_charge':         {'addr': '37066', 'registers': 2,  'name': 'ESU total charge',                 'scale': 100,  'type': 'U32',  'units': 'kWh',     'use': 'info',  'method': 'hold'},
         'ESU_tot_discharge':      {'addr': '37068', 'registers': 2,  'name': 'ESU total discharge',              'scale': 100,  'type': 'U32',  'units': 'kWh',     'use': 'info',  'method': 'hold'},
 
-        
+        #Geral
         'ES_soc':                 {'addr': '37760', 'registers': 2,  'name': 'ES SOC',                           'scale': 10,   'type': 'U16',  'units': '%',       'use': 'data',  'method': 'hold'},
         'ES_voltage':             {'addr': '37763', 'registers': 1,  'name': 'ES voltage',                       'scale': 10,   'type': 'U16',  'units': 'V',       'use': 'data',  'method': 'hold'},
         'ES_current':             {'addr': '37764', 'registers': 1,  'name': 'ES current',                       'scale': 10,   'type': 'U16',  'units': 'A',       'use': 'data',  'method': 'hold'},
